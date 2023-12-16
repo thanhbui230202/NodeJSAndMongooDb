@@ -1,17 +1,3 @@
-// const mongoose = require('mongoose');
-
-// async function connect() {
-//     try {
-//         await mongoose.connect('mongodb://localhost:27017//f8_education_dev');
-//         console.log('Success');
-//     } catch (error) {
-//         console.error('Fail', error);
-//     }
-// }
-
-// module.exports = { connect };
-
-//MongoDB connection via mongoose
 const mongoose = require("mongoose");
 const server = '127.0.0.1:27017'; 
 const database = 'f8_education_dev'; 
